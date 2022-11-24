@@ -12,7 +12,7 @@ export default function Allordersscreen() {
 
   useEffect(() => {
     dispatch(getAllOrders());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>

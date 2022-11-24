@@ -12,7 +12,7 @@ export default function Allusersscreen() {
 
   useEffect(() => {
     dispatch(getAllUsers());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>

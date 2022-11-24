@@ -14,7 +14,7 @@ export default function Homescreen() {
 
   useEffect(() => {
     dispatch(getAllCloths());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>
